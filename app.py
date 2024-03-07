@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
-palm.configure(api_key='AIzaSyATRWBWwqP1AYY1gNJEHvKPKSBWorFABv8') # need to remove/hide
+palm.configure(api_key=st.secrets["api_key"]) # need to remove/hide
 df = pd.read_csv("datafinal.csv")
 
 models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]
