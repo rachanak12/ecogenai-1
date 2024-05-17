@@ -20,7 +20,7 @@ def get_data() -> pd.DataFrame:
 df = get_data()
 
 # dashboard title
-st.title("EcoGuide - Climate Change Information 🌍")
+st.title("EcoGenAI - Climate Change Information 🌍")
 
 # top-level filters
 country_filter = st.selectbox("Select the country", pd.unique(df["Country"]))
