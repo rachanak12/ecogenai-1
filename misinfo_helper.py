@@ -9,7 +9,7 @@ import google.generativeai as palm
 palm.configure(api_key='api_key='AIzaSyCD1XlRiMH_Him5MdqNqtRvtuOhDe9TGr8'')
 
 st.set_page_config(
-    page_title="EcoGuide - Climate Change Information",
+    page_title="EcoGenAI - Your Climate Change Analyser",
     page_icon="🌍",
     layout="wide",
 )
