@@ -26,10 +26,10 @@ EMISSION_FACTORS = {
 }
 
 # Set page config
-st.set_page_config(layout="wide", page_title="EcoGuide - Carbon Footprint Analysis", page_icon="🌍")
+st.set_page_config(layout="wide", page_title="EcoGenAI - Your Carbon Footprint Analyser", page_icon="🌍")
 
 # Set title
-st.title("EcoGuide - Carbon Footprint Analysis 🌍")
+st.title("EcoGenAI - Your Carbon Footprint Analyser 🌍")
 
 # input GUI
 st.subheader("🌍 Your Country")
