@@ -6,7 +6,7 @@ import plotly.express as px  # interactive charts
 import streamlit as st  # 🎈 data web app development
 
 import google.generativeai as palm
-palm.configure(api_key='api_key='AIzaSyCD1XlRiMH_Him5MdqNqtRvtuOhDe9TGr8'')
+palm.configure(api_key='AIzaSyCD1XlRiMH_Him5MdqNqtRvtuOhDe9TGr8')
 
 st.set_page_config(
     page_title="EcoGenAI - Your Climate Change Analyser",
